@@ -53,6 +53,6 @@ public static class WeatherForecastGet
             summary = "Freezing!";
         }
 
-        return summary;
+        return $"The weather is {summary}";
     }
 }
